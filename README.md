@@ -1,8 +1,8 @@
-# Welcome to your Expo app 👋
+# Expo Component Library with Storybook
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a component library built with [Expo](https://expo.dev) and Storybook, providing reusable UI components for your React Native applications.
 
-## Get started
+## Getting Started
 
 1. Install dependencies
 
@@ -10,41 +10,58 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Start Storybook
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+This will launch the Storybook interface where you can browse, test, and interact with all available components. You can view the components in:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo Go](https://expo.dev/go) (with some limitations)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Component Library Structure
 
-## Get a fresh project
+The components are organized in the **app** directory, with each component having its own documentation and usage examples. The library uses [file-based routing](https://docs.expo.dev/router/introduction) for easy navigation.
 
-When you're ready, run:
+## Using Components in Your Project
 
-```bash
-npm run reset-project
+To use these components in your own project:
+
+1. Install this package as a dependency
+2. Import components as needed:
+
+```javascript
+import { Button, Card, TextField } from "your-component-library";
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contributing
 
-## Learn more
+To contribute new components or improve existing ones:
 
-To learn more about developing your project with Expo, look at the following resources:
+1. Create a new component in the appropriate directory
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2. Add Storybook documentation with usage examples
 
-## Join the community
+3. Submit a pull request with your changes
 
-Join our community of developers creating universal apps.
+## Learn More
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Storybook documentation](https://storybook.js.org/docs/react/get-started/introduction)
+- [Expo documentation](https://docs.expo.dev/)
+
+3. Submit a pull request with your changes
+
+## Learn More
+
+- [Storybook documentation](https://storybook.js.org/docs/react/get-started/introduction)
+- [Expo documentation](https://docs.expo.dev/)
+- [React Native documentation](https://reactnative.dev/docs/getting-started)
+
+## Community
+
+- [GitHub repository](https://github.com/your-username/your-repo)
+- [Discord community](https://chat.expo.dev)
